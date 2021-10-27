@@ -1,21 +1,22 @@
 puzzle = []
-n = int(input("Size of puzzle NxN"))
-print("Enter Numbers")
-for i in range(n):
-    List1 = []
-    for j in range(n):
-        value = int(input("Value -- "))
-        List1.append(value)
-    puzzle.append(List1)
-
-
 N = 9
+print("Enter Numbers")
+for i in range(N):
+    List1 = []
+    for j in range(N):
+        value = int(input("Value -- "))
+        if (value>N):
+            value = int(input("Value -- "))
+            List1.append(value)
+        else:
+            List1.append(value)
+    puzzle.append(List1)
  
 
-def printing(arr):
+def printing(puzzle):
     for i in range(N):
         for j in range(N):
-            print(arr[i][j], end = " ")
+            print(puzzle[i][j], end = " ")
         print()
  
 
