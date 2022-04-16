@@ -28,3 +28,6 @@ Running the Program:
 - Input your chosen Sudoku puzzle into the cells of the window. 
 - Leave any empty cells blank. 
 - Then simply click "solve" to complete the puzzle or "clear" to clear the puzzle.
+
+![SudokuInp](https://user-images.githubusercontent.com/93469490/163670462-a7d4571b-a3d6-48f2-8e48-5bf145e3e9fe.png)
+![SudokuOut](https://user-images.githubusercontent.com/93469490/163670469-d8f4e8c3-f3d8-4da4-ae71-1bc2df2ab7be.png)
